@@ -5,19 +5,19 @@ const yourScoreSpan = document.querySelector('[data-your-score]');
 const description = document.getElementById('description');
 const SELECTIONS = [
     {
-        name: 'Lapis',
+        name: 'Rock',
         emoji: '🪨',
-        beats: 'Scalpellus'
+        beats: 'Scissors'
     },
     {
-        name: 'Papyrus',
+        name: 'Paper',
         emoji: '📜',
-        beats: 'Lapis'
+        beats: 'Rock'
     },
     {
-        name: 'Scalpellus',
+        name: 'Scissors',
         emoji: '✂️',
-        beats: 'Papyrus'
+        beats: 'Paper'
     }
 ];
 
